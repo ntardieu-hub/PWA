@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style/style.css">
+<script type="text/javascript" src="js/image.js"></script>
+
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>Image Gallery</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img/the-road-815297_1280.jpg" alt="Road" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/winter-260817_1280.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/astronomy-1867616_1280.jpg" alt="Astro" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/city-336708_1280.jpg" alt="City" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/mountain-477832_1280.jpg" alt="Mountain" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+</body>
+</html>
